@@ -24,7 +24,6 @@ Here is a quick overview of the necessary steps in this exercise:
 
 
 
-
 #### 1 Open the code on Google Colaboratory
 For this purpose you will require a Google Account. The code will not be executed on your local machine. Instead you will use compute resources provided by Google.
 
@@ -60,17 +59,18 @@ We have hidden most of the code, but if you are interested you can peak into it 
 #### 5 Explore bias using the Fairness Indicators tool
 When the code has finally evaluated you should see a window at the bottom of the *Train & Evaluate* section.
 
-Using this window we can explore the performance of our recently trained neural network. Please select different metrics on the left. By hovering of a metric with your mouse you should see an explanation of it.
+Using this window we can explore the performance of our recently trained neural network. Please select different metrics on the left. By hovering over a metric with your mouse you should see an explanation of it.
 
 You may want to discuss the following questions:
-- Which group is at risk for which metric?
+- Which group has an disadvantage?
 - Which metric is most important to you?
-- What may cause the gap?
+- What may cause the gap between the groups?
 
 
 #### 6 Optional: try it yourself by taking a selfie
 If there is some time left for you, you can play around by looking at the outcome of some test images or by taking a selfie.
 
+Keep in mind that the model has went through all necessary steps to perform good on real world data. This last step is just for demonstration purposes.
 
 Additional Resources
 --------------------
