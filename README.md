@@ -1,4 +1,4 @@
-A Workshop on Bias in Artificial Intelligence
+A Workshop on Bias in Machine Learning Applications
 ============
 
 This repository is supposed to give an easy introduction to Artificial Neural Networks and their inherited biases. It is part of a free workshop series which is not directed to skilled programmers.
@@ -28,7 +28,7 @@ For this purpose you will require a Google Account. The code will not be execute
 
 Please get together in small groups where at least one person has the required access. Next make sure to share your screen and collaboratively go through each step in this exercise.
 
-You can access the code using [this link])().
+You can access the code using the following link: https://colab.research.google.com/github/zkmkarlsruhe/bias-workshop/blob/main/Fairness_Indicators_CelebA_Case_Study.ipynb
 
 
 #### 2 Run the installs section & restart the runtime
@@ -44,13 +44,13 @@ First go to the next section: imports. Select this section by clicking on it. Ne
 
 
 #### 4 Read the text of the sections
-With our code running in the background, you can now take a look a et ach section. The two sections you should mind are called: Setting up the Input Function & Fairness Indicators Helper Functions.
+With our code running in the background, you can now take a look a each section. The two sections *Setting up the Input Function* & *Fairness Indicators Helper Functions* are only interesting for skilled programmers who want to know more about how we handle the data and use the TFMA library.
 
 We have hidden most of the code, but if you are interested you can peak into it by double clicking on the section (if it is not collapsed yet), but this is not mandatory.
 
 
 #### 5 Explore bias using the Fairness Indicators tool
-When the code has finally evaluated you should see a window at the bottom of the Train & Evaluate section.
+When the code has finally evaluated you should see a window at the bottom of the *Train & Evaluate* section.
 
 Using this window we can explore the performance of our recently trained neural network. Please select different metrics on the left. By hovering of a metric with your mouse you should see an explanation of it.
 
