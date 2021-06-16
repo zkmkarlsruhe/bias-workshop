@@ -35,7 +35,7 @@ You can access the code using the following link: https://colab.research.google.
 ![](media/colab_interface.png)
 
 The above picture points out the most important things to look at.
-At the top right corner you will see the status of the environment. At the top left you can dee the *Runtime* button we will use next.
+At the top right corner you will see the status of the environment. At the top left you can see the *Runtime* button we will use in the third step.
 
 #### 2 Run the installs section & restart the runtime
 The first code of block to be executed is the installs section. Hover your mouse of the code section and click the *play* button that appears on the left top corner.
