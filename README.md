@@ -23,6 +23,8 @@ Here is a quick overview of the necessary steps in this exercise:
 - Optional: try it yourself by taking a selfie
 
 
+
+
 #### 1 Open the code on Google Colaboratory
 For this purpose you will require a Google Account. The code will not be executed on your local machine. Instead you will use compute resources provided by Google.
 
@@ -30,11 +32,17 @@ Please get together in small groups where at least one person has the required a
 
 You can access the code using the following link: https://colab.research.google.com/github/zkmkarlsruhe/bias-workshop/blob/main/Fairness_Indicators_CelebA_Case_Study.ipynb
 
+![](media/colab_interface.png)
+
+The above picture points out the most important things to look at.
+At the top right corner you will see the status of the environment. At the top left you can dee the *Runtime* button we will use next.
 
 #### 2 Run the installs section & restart the runtime
 The first code of block to be executed is the installs section. Hover your mouse of the code section and click the *play* button that appears on the left top corner.
 
 If it is the first time you execute these lines you will need to restart the runtime. You should see a button *Restart Runtime* at the end of the logging message.
+
+![](media/restart_runtime.png)
 
 
 #### 3 Execute the rest of the code
