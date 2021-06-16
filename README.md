@@ -1,9 +1,9 @@
 A Workshop on Bias in Artificial Intelligence
 ============
 
-_Short, one to two line project description._
+This repository is supposed to give an easy introduction to Artificial Neural Networks and their inherited biases. It is part of a free workshop series which is not directed to skilled programmers.
  
-This material has been gathered and/or modified by [ZKM | Hertz-Lab](https://zkm.de/en/about-the-zkm/organization/hertz-lab) as part of the project [»The Intelligent Museum«](#the-intelligent-museum).
+The material has been gathered and/or modified by [ZKM | Hertz-Lab](https://zkm.de/en/about-the-zkm/organization/hertz-lab) as part of the project [»The Intelligent Museum«](#the-intelligent-museum).
 
 Copyright (c) 2021 ZKM | Karlsruhe.
 
@@ -12,10 +12,56 @@ WARRANTIES, see the file, "LICENSE.txt," in this distribution.
 
 BSD Simplified License.
 
-Using this Repository
+How to use this repository
 -----------
+Here is a quick overview of the necessary steps in this exercise:
+- Open the code on Google Colaboratory
+- Run the installs section & restart the runtime
+- Execute the rest of the code
+- Read the text of the mentioned sections
+- Explore bias using the Fairness Indicators tool
+- Optional: try it yourself by taking a selfie
 
-_Detailed project description. Don't forget to include relevant attribution for forked, adapted, or inspired projects._
+
+#### 1 Open the code on Google Colaboratory
+For this purpose you will require a Google Account. The code will not be executed on your local machine. Instead you will use compute resources provided by Google.
+
+Please get together in small groups where at least one person has the required access. Next make sure to share your screen and collaboratively go through each step in this exercise.
+
+You can access the code using [this link])().
+
+
+#### 2 Run the installs section & restart the runtime
+The first code of block to be executed is the installs section. Hover your mouse of the code section and click the *play* button that appears on the left top corner.
+
+If it is the first time you execute these lines you will need to restart the runtime. You should see a button *Restart Runtime* at the end of the logging message.
+
+
+#### 3 Execute the rest of the code
+When the runtime has restarted we will run the rest of the code with a single command. This is necessary as the code will need about 10 minutes to complete.
+
+First go to the next section: imports. Select this section by clicking on it. Next go to the top menu and select *Runtime* -> *Run After* or press CMD/CTRL + F10. Running everything is also fine.
+
+
+#### 4 Read the text of the sections
+With our code running in the background, you can now take a look a et ach section. The two sections you should mind are called: Setting up the Input Function & Fairness Indicators Helper Functions.
+
+We have hidden most of the code, but if you are interested you can peak into it by double clicking on the section (if it is not collapsed yet), but this is not mandatory.
+
+
+#### 5 Explore bias using the Fairness Indicators tool
+When the code has finally evaluated you should see a window at the bottom of the Train & Evaluate section.
+
+Using this window we can explore the performance of our recently trained neural network. Please select different metrics on the left. By hovering of a metric with your mouse you should see an explanation of it.
+
+You may want to discuss the following questions:
+- Which group is at risk for which metric?
+- Which metric is most important to you?
+- What may cause the gap?
+
+
+#### 6 Optional: try it yourself by taking a selfie
+If there is some time left for you, you can play around by looking at the outcome of some test images or by taking a selfie.
 
 
 Additional Resources
