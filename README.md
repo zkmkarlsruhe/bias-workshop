@@ -1,9 +1,7 @@
 A Workshop on Bias in Machine Learning Applications
 ============
 
-This repository is supposed to give an easy introduction to Artificial Neural Networks and their inherited biases. It is part of a free workshop series which is not directed to skilled programmers.
- 
-The material has been gathered and/or modified by [ZKM | Hertz-Lab](https://zkm.de/en/about-the-zkm/organization/hertz-lab) as part of the project [»The Intelligent Museum«](#the-intelligent-museum).
+This repository is supposed to give an easy introduction to Artificial Neural Networks and their inherited biases. The material has been gathered and/or modified by [ZKM | Hertz-Lab](https://zkm.de/en/about-the-zkm/organization/hertz-lab) for a free workshop series which is not directed to skilled programmers as part of the project [»The Intelligent Museum«](#the-intelligent-museum).
 
 Copyright (c) 2021 ZKM | Karlsruhe.
 
