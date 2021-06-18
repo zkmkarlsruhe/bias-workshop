@@ -12,6 +12,21 @@ WARRANTIES, see the file, "LICENSE.txt," in this distribution.
 
 BSD Simplified License.
 
+Acknowledgement
+-----------
+
+We hereby thank TensorFlow for providing tools and examples to explore the topic of bias in Machine Learning (ML) applications.
+We introduced small changes to the original notebook in order to suit our needs for this workshop. Please visit the [website](https://www.tensorflow.org/responsible_ai/) to learn more about how TensorFlow gives opportunities to make AI more responsible (including detecting and mitigating bias). Please find the original notebook [here](https://www.tensorflow.org/responsible_ai/fairness_indicators/tutorials/Fairness_Indicators_TFCO_CelebA_Case_Study).
+
+Caveats
+-----------
+This notebook uses the CelebA dataset. The dataset should not be interpreted as a true representation of the human population. 
+It is Insufficient to describe human diversity with binary attributes, i.e. there is no such thing as *young* and *not young*.
+Furthermore, human diversity can not be quantified by only 40 attributes.
+
+Nevertheless, it demonstrates perfectly well, how special care needs to be taken when using a not perfectly balanced dataset, to train a neural network to be fair.
+
+
 How to use this repository
 -----------
 Here is a quick overview of the necessary steps in this exercise:
@@ -70,7 +85,7 @@ You may want to discuss the following questions:
 #### 6 Optional: try it yourself by taking a selfie
 If there is some time left for you, you can play around by looking at the outcome of some test images or by taking a selfie.
 
-Keep in mind that the model has went through all necessary steps to perform good on real world data. This last step is just for demonstration purposes.
+Keep in mind that the model did not go through all necessary steps to perform good on real world data. This last step is just for demonstration purposes.
 
 Additional Resources
 --------------------
